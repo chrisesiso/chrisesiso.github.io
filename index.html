@@ -11,16 +11,20 @@
 <body>
 
   <!--Nav bar-->
-  <nav class="nav navbar navbar-expand-lg bg-light navbar-dark">
+  <nav class="nav navbar navbar-expand-lg bg-light navbar-light">
     <div class="container">
     <a href="#" class="navbar-brand">
-      <img class="d-sm" src="images/logo.png" alt="">
+      <img src="images/logo.png" class="img-circle d-sm-block"  alt="">
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
 
     </button>
     <div class="collapse navbar-collapse" id="navmenu">
+      <form action="" class="d-flex" role="search">
+        <input type="search" class="form-control me-2" placeholder="Search" aria-label="Search">
+        <button class="btn btn-primary btn-outline-success text-light">Search</button>
+      </form>
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
           <a href="#myservice" class="nav-link">My Services</a>
@@ -42,7 +46,7 @@
   <!--Let's showcase-->
 <section class="bg-light text-dark p-5 text-center text-sm-start">
     <div class="container">
-        <div class="d-sm-flex w-50">
+        <div class="d-sm-flex align-items-center justify-content-between">
           <div>
             <h1>Learn Web development from Scratch</h1>
             <p class="lead">This is where you'll get to now me well
@@ -53,10 +57,7 @@
         </div>
     </div>
 </section>
-  <article>
-<!-- Change this code here by copy and pasting your template on line 15 -->
-  <p class="text-warning">You'll be soon getting all information about me and my projets in this website</p>
-  </article>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
